@@ -1,0 +1,27 @@
+# ความลับ — ห้ามขึ้น repo เด็ดขาด
+webull_config.json
+conf/
+*.env
+.env
+
+# ไฟล์ชั่วคราว / ผลลัพธ์ที่สร้างเอง
+__pycache__/
+*.pyc
+.venv/
+.cache/
+data/
+bt_output/
+made_zones.csv
+*.log
+*.log.*
+webull_last_raw.json
+webull_core_test.*
+webull_extra_test_result.*
+
+# สำเนา backup และ shortcut เฉพาะเครื่อง
+*_backup*.py
+*_backup*.mq5
+*.lnk
+
+# SDK ติดตั้งผ่าน pip (requirements.txt) ไม่ต้องเก็บใน repo
+webull-openapi-python-sdk-main/

@@ -1,0 +1,6 @@
+{
+  "app_key": "ใส่ app_key ของคุณ",
+  "app_secret": "ใส่ app_secret ของคุณ",
+  "region": "th",
+  "endpoint": "api.webull.co.th"
+}
